@@ -1,4 +1,4 @@
-"""Revision analysis (Paper A, reviewer A-3): the second AV-block patient in the public P-annotated data.
+"""Second AV-block patient in the public P-annotated data.
 
 BUT PDB record 03 is a 120-s segment of MIT-BIH record 107 (complete AV block with ventricular pacing; BUT PDB
 pathology code 'BIII'). In complete block no P wave is conducted, so every annotated P wave is non-conducted,

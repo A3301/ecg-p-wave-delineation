@@ -1,9 +1,9 @@
-"""Revision analysis (plan v5, section 3.1): P-wave-level detection flags on BUT PDB for the coupling analysis.
+"""Additional analysis (plan v5, section 3.1): P-wave-level detection flags on BUT PDB for the coupling analysis.
 
 Stores, for every model, every lead and every reference P peak: QRS-coupled flag, detected flag (+-150 ms, greedy
 one-to-one), and a near-duplicate flag (another reference P within 100 ms). This enables subject-clustered statistics,
 first-lead-only results and a sensitivity analysis without near-duplicate reference labels.
-Output: results/mechanism_detail/<name>.pkl ; summary via src/revision_analyses.py
+Output: results/mechanism_detail/<name>.pkl ; summary via src/additional_analyses.py
 Usage: python src/coupling_detail.py wavelet,cnn_bilstm,... [--threads 2]
 """
 from __future__ import annotations

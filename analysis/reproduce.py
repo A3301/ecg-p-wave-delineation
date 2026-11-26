@@ -90,7 +90,7 @@ def compare(expected, calculated):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output",type=Path,default=Path("replay_output"))
+    parser.add_argument("--output",type=Path,default=Path("reproduction_output"))
     args = parser.parse_args()
     output = args.output.resolve()
     if output.is_relative_to(DATA.resolve()):

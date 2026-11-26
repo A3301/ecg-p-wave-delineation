@@ -1,7 +1,7 @@
-"""Revision analysis (Paper A, reviewer A-2): which component of the augmentation does the work?
+"""Component analysis of the augmentation: which part of it does the work?
 
 U-Net-KAN, seed 1, five-fold ensembles: Stage 1 (no augmentation), both (insert + delete, Stage 2), insert only,
-delete only, and the QRS-coupled sham (same templates and number of pastes as insert, pasted at the own P position).
+delete only, and the QRS-coupled sham (same templates and maximum number of pastes as insert, centred on existing P waves).
 Endpoints: BUT PDB P-peak F1 (each lead; all segments and without overlap), MIT-BIH P-wave P-peak F1, QTDB P-onset F1
 (each lead), LUDB mean F1 of six points, Zhejiang P-onset F1 (each lead); sensitivity for the blocked P waves of record
 231 (BUT PDB and MIT-BIH P-wave annotation) and for QRS-coupled P waves on BUT PDB.

@@ -185,7 +185,7 @@ class PointwiseKAN(nn.Module):
 
 class MLPHead(nn.Module):
     """Point-wise GELU MLP head (LayerNorm -> Linear -> GELU -> Linear); parameter-matched control for the KAN head
-    (revision analysis B-3: hidden 29 gives 397 parameters against 404 for the KAN head and 36 for the linear head)."""
+    (hidden 29 gives 397 parameters against 404 for the KAN head and 36 for the linear head)."""
 
     def __init__(self, din, dout, hidden):
         super().__init__()

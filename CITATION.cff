@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite this version if you use the research software or replay."
-title: "Research code and replay data for QRS-independent P-wave augmentation in ECG delineation"
+message: "Please cite this version if you use the research software or data."
+title: "Research code and data for QRS-independent P-wave augmentation in ECG delineation"
 type: software
-version: 1.0.0
+version: 1.0.1
 license: MIT
 authors:
   - family-names: Akdağlı

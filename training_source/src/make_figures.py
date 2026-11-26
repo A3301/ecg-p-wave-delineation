@@ -1,6 +1,6 @@
-"""Paper A figures (all numbers read from results/; variants included automatically when their files exist).
+"""Manuscript figures (all numbers read from results/; variants included automatically when their files exist).
 
-figures/paperA/
+figures/manuscript/
   figA1_augmentation.png      examples of the in-place QRS-independent augmentation (copied from figures/stage2)
   figA2_failure_examples.png  BUT PDB windows with QRS-dissociated P waves: reference P vs Stage-1 and augmented detections
   figA3_effect_forest.png     P F1 with 95% CI per architecture: Stage 1 vs augmentation (and B/C/D variants)
@@ -26,7 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import stats  # noqa: E402
 from paths import FIGURES, RESULTS  # noqa: E402
 
-OUT = FIGURES / "paperA"
+OUT = FIGURES / "manuscript"
 OUT.mkdir(parents=True, exist_ok=True)
 F, X = RESULTS / "final", RESULTS / "final_extra"
 plt.rcParams.update({"font.size": 9, "savefig.dpi": 300})
@@ -251,7 +251,7 @@ def main():
         fig_coupling()
     if (RESULTS / "tables" / "butpdb_avblock_subjects.csv").exists():
         fig_avblock()
-    print("Paper A figures written to", OUT)
+    print("Manuscript figures written to", OUT)
 
 
 if __name__ == "__main__":

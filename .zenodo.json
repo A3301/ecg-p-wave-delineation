@@ -1,8 +1,8 @@
 {
-  "title": "Research code and replay data for QRS-independent P-wave augmentation in ECG delineation",
-  "description": "<p>Research software and derived event counts for QRS-independent P-wave augmentation and cross-database ECG delineation in pathological rhythms.</p><p>The archive includes the training-source snapshot, the analysis code and the frozen counts for the 48-segment BUT PDB benchmark and exploratory European ST-T subset of QTDB. The replay covers the four primary architecture comparisons, external comparisons and rhythm subgroup counts. Source-dataset attribution and reuse terms are documented in DATA_SOURCES.md.</p>",
+  "title": "Research code and data for QRS-independent P-wave augmentation in ECG delineation",
+  "description": "<p>Research software and derived event counts for QRS-independent P-wave augmentation and cross-database ECG delineation in pathological rhythms.</p><p>The archive includes the training-source snapshot, the analysis code and the frozen counts for the 48-segment BUT PDB benchmark and exploratory European ST-T subset of QTDB. The reproduction script covers the four primary architecture comparisons, external comparisons and rhythm subgroup counts. Source-dataset attribution and reuse terms are documented in DATA_SOURCES.md.</p>",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "access_right": "open",
   "license": "MIT",
   "creators": [

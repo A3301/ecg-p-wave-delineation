@@ -1,4 +1,4 @@
-"""Revision analyses from existing outputs (docs/analiz_plani_v5.md, section 3). Output: results/tables/revision_*.md
+"""Additional analyses from existing outputs (docs/analiz_plani_v5.md, section 3). Output: results/tables/additional_analyses.md
 
 A. Plan C/D gain on BUT PDB stratified by source database (MIT-BIH 360 Hz vs LTAFDB/SVDB 128 Hz).
 B. Sensitivity of the configuration selection to the selection rule.
@@ -181,7 +181,7 @@ def part_e():
 
 def main():
     md = part_a() + [""] + part_b() + part_c() + part_d() + part_e()
-    (T / "revision_analyses.md").write_text("\n".join(md), encoding="utf-8")
+    (T / "additional_analyses.md").write_text("\n".join(md), encoding="utf-8")
     print("\n".join(md))
 
 

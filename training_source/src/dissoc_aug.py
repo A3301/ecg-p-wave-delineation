@@ -70,9 +70,9 @@ def augment(xc: np.ndarray, yc: np.ndarray, templates, rng, n_max=3, p_remove=0.
 
 
 def augment_sham(xc: np.ndarray, yc: np.ndarray, templates, rng, n_max=3):
-    """QRS-coupled sham control (revision analysis A-2). 1..n_max annotated P waves of the crop are replaced, centred
+    """QRS-coupled sham control (plan v5). 1..n_max annotated P waves of the crop are replaced, centred
     at their own position, by a random template of the same lead (amplitude U(0.7, 1.3)): the same templates and the
-    same number of pastes as INSERT, but every P wave keeps its coupling to the following QRS. No P wave is removed."""
+    same maximum number of pastes as INSERT, but every P wave keeps its coupling to the following QRS. No P wave is removed."""
     x = xc.astype(np.float64).copy()
     y = yc.copy()
     n = len(x)

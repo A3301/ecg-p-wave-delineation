@@ -116,7 +116,7 @@ def main():
     ap.add_argument("--eval_every", type=int, default=5)
     ap.add_argument("--dissoc", type=float, default=0.0, help="P-QRS dissociation augmentation probability")
     ap.add_argument("--dissoc_mode", default="both", choices=["both", "insert", "delete", "sham"],
-                    help="revision ablation: insertion only, deletion only, QRS-coupled sham, or both (default, Stage 2)")
+                    help="augmentation component: insertion only, deletion only, QRS-coupled sham, or both (default, Stage 2)")
     ap.add_argument("--p_weight", type=float, default=1.0, help="cross-entropy weight of the P class (Plan B)")
     ap.add_argument("--p_dice", type=float, default=0.0, help="weight of the soft-Dice loss on the P class (Plan B)")
     ap.add_argument("--multi", type=int, default=0, help="Plan D: add RDB + Multi-Expert training data (plan v4)")

@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 .venv/
-replay_output/
+reproduction_output/
 data/
 checkpoints/

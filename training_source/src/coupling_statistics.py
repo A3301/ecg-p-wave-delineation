@@ -1,4 +1,4 @@
-"""Revision analysis (plan v5, 3.1): subject-aware statistics for QRS-dissociated P-wave detection on BUT PDB.
+"""Additional analysis (plan v5, 3.1): subject-aware statistics for QRS-dissociated P-wave detection on BUT PDB.
 
 Uses the P-wave-level flags of src/coupling_detail.py. For each augmented/variant model vs the Stage-1 model of the
 same architecture:
@@ -7,7 +7,7 @@ same architecture:
   - exact paired McNemar test on the same P waves (discordant pairs counted directly);
   - subject-level sign test (subjects with at least one dissociated P, improved vs worsened);
   - subject-cluster bootstrap 95% CI of the sensitivity difference (10 000 resamples).
-Output: results/tables/revision_coupling.md
+Output: results/tables/coupling_statistics.md
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ from paths import RESULTS  # noqa: E402
 D = RESULTS / "mechanism_detail"
 DB = "butpdb"
 PAIRS = [(f"{a}__{t}", a) for t in ["s2dissoc"] for a in ["unet", "cnn_bilstm", "unet_kan", "deq"]] + \
-        [(f"{a}__{t}", a) for t in ["s3xdb", "s4multi"] for a in ["cnn_bilstm", "unet_kan", "deq"]] +         [(f"{a}__s5cd", a) for a in ["cnn_bilstm", "unet_kan"]] +         [(f"unet_kan__{t}", "unet_kan") for t in ["s5ins", "s5del", "s5sham"]]   # revision analyses (plan v5)
+        [(f"{a}__{t}", a) for t in ["s3xdb", "s4multi"] for a in ["cnn_bilstm", "unet_kan", "deq"]] +         [(f"{a}__s5cd", a) for a in ["cnn_bilstm", "unet_kan"]] +         [(f"unet_kan__{t}", "unet_kan") for t in ["s5ins", "s5del", "s5sham"]]   # additional analyses (plan v5)
 
 
 def load(n):
@@ -80,7 +80,7 @@ def main():
     if len(sys.argv) > 1 and sys.argv[1] == "pwave":
         D, DB = RESULTS / "mechanism_detail_pwave", "pwave"
     rng = np.random.default_rng(0)
-    md = [f"### Revision: subject-aware statistics for QRS-dissociated P waves ({'MIT-BIH P-wave' if DB == 'pwave' else 'BUT PDB'}, ±150 ms)", "",
+    md = [f"### Subject-aware statistics for QRS-dissociated P waves ({'MIT-BIH P-wave' if DB == 'pwave' else 'BUT PDB'}, ±150 ms)", "",
           "Se: sensitivity for dissociated P waves, variant vs Stage 1 (same architecture). McNemar: exact, on the same P "
           "waves (n10 = found only by the variant, n01 = only by Stage 1). Sign test over subjects with ≥ 1 dissociated P. "
           "CI: subject-cluster bootstrap of the Se difference.", ""]
@@ -119,7 +119,7 @@ def main():
             subs[u].append(f"{100 * fb[k].mean():.0f} → {100 * fv[k].mean():.0f}")
     for u, v in sorted((subs or {}).items(), key=lambda kv: -kv[1][0]):
         md.append(f"| {u.split(':')[-1]} | {v[0]} | " + " | ".join(v[1:]) + " |")
-    (RESULTS / "tables" / f"revision_coupling{'_pwave' if DB == 'pwave' else ''}.md").write_text("\n".join(md), encoding="utf-8")
+    (RESULTS / "tables" / f"coupling_statistics{'_pwave' if DB == 'pwave' else ''}.md").write_text("\n".join(md), encoding="utf-8")
     print("written")
 
 

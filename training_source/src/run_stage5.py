@@ -1,4 +1,4 @@
-"""Revision training queue (docs/analiz_plani_v5.md). Same claim-file mechanism as run_stage3.py; safe to run as
+"""Training queue for the additional analyses (docs/analiz_plani_v5.md). Same claim-file mechanism as run_stage3.py; safe to run as
 several detached instances. Usage: python src/run_stage5.py [--threads 3]"""
 import argparse
 import json

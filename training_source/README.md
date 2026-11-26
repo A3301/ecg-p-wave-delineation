@@ -1,6 +1,6 @@
 # Training source
 
-This directory preserves selected model definitions, training and evaluation scripts, frozen configurations, and analysis plans from the original study snapshot. The count-based replay at the repository root provides the portable verification path.
+This directory preserves selected model definitions, training and evaluation scripts, frozen configurations, and analysis plans from the original study snapshot. The count-based reproduction at the repository root provides the portable verification path.
 
 The training scripts derive the project root from their own location and expect source recordings under `data/raw/` within this directory. The PhysioNet paths are defined in `src/paths.py`. Additional dataset locations and labels are defined in `src/extra_data.py`.
 

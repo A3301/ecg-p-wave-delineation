@@ -35,7 +35,7 @@ def out_name(model: str) -> str:
 def load_models(model: str):
     """model = '<arch>' (Stage 1, checkpoint lr<lr>_<arch>_f*) or '<arch>@<tag>' (checkpoint <tag>_<arch>_f*)."""
     chosen = json.loads((ROOT / "configs" / "chosen_lr.json").read_text())
-    model, _, seed = model.partition("~")          # optional '~<seed>' suffix (revision: extra training seeds)
+    model, _, seed = model.partition("~")          # optional '~<seed>' suffix (extra training seeds)
     seed = int(seed) if seed else 1
     arch, _, tag = model.partition("@")
     lr = chosen[arch]
