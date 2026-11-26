@@ -17,6 +17,10 @@ authors:
     given-names: Ali
     orcid: "https://orcid.org/0000-0003-3904-6017"
     affiliation: "Department of Electrical and Electronics Engineering, Faculty of Engineering, Mersin University"
+  - family-names: Çelik
+    given-names: Ahmet
+    orcid: "https://orcid.org/0000-0002-9417-7610"
+    affiliation: "Department of Cardiology, Faculty of Medicine, Mersin University"
 keywords:
   - ECG delineation
   - P wave
