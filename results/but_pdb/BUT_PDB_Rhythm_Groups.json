@@ -1,0 +1,80 @@
+{
+  "AV block": [
+    "MIT-BIH Arrhythmia Database:107",
+    "MIT-BIH Arrhythmia Database:111",
+    "MIT-BIH Arrhythmia Database:231"
+  ],
+  "Atrial ectopy": [
+    "MIT-BIH Arrhythmia Database:101",
+    "MIT-BIH Arrhythmia Database:108",
+    "MIT-BIH Arrhythmia Database:112",
+    "MIT-BIH Arrhythmia Database:113",
+    "MIT-BIH Arrhythmia Database:114",
+    "MIT-BIH Arrhythmia Database:118",
+    "MIT-BIH Arrhythmia Database:121",
+    "MIT-BIH Arrhythmia Database:207",
+    "MIT-BIH Arrhythmia Database:213",
+    "MIT-BIH Arrhythmia Database:219",
+    "MIT-BIH Arrhythmia Database:222",
+    "MIT-BIH Supraventricular Arrhythmia Database:801",
+    "MIT-BIH Supraventricular Arrhythmia Database:802",
+    "MIT-BIH Supraventricular Arrhythmia Database:811",
+    "MIT-BIH Supraventricular Arrhythmia Database:886"
+  ],
+  "Ventricular ectopy": [
+    "MIT-BIH Arrhythmia Database:104",
+    "MIT-BIH Arrhythmia Database:105",
+    "MIT-BIH Arrhythmia Database:106",
+    "MIT-BIH Arrhythmia Database:109",
+    "MIT-BIH Arrhythmia Database:116",
+    "MIT-BIH Arrhythmia Database:118",
+    "MIT-BIH Arrhythmia Database:119",
+    "MIT-BIH Arrhythmia Database:121",
+    "MIT-BIH Arrhythmia Database:123",
+    "MIT-BIH Arrhythmia Database:124",
+    "MIT-BIH Arrhythmia Database:205",
+    "MIT-BIH Arrhythmia Database:207",
+    "MIT-BIH Arrhythmia Database:208",
+    "MIT-BIH Arrhythmia Database:213",
+    "MIT-BIH Arrhythmia Database:214",
+    "MIT-BIH Arrhythmia Database:233",
+    "MIT-BIH Supraventricular Arrhythmia Database:801",
+    "MIT-BIH Supraventricular Arrhythmia Database:802",
+    "MIT-BIH Supraventricular Arrhythmia Database:851",
+    "MIT-BIH Supraventricular Arrhythmia Database:886"
+  ],
+  "AF/AFL": [
+    "Long Term AF Database:101",
+    "Long Term AF Database:102",
+    "Long Term AF Database:117",
+    "Long Term AF Database:120",
+    "Long Term AF Database:55",
+    "Long Term AF Database:56",
+    "MIT-BIH Arrhythmia Database:201",
+    "MIT-BIH Arrhythmia Database:219",
+    "MIT-BIH Arrhythmia Database:222"
+  ],
+  "Nodal/SVTA": [
+    "MIT-BIH Arrhythmia Database:124",
+    "MIT-BIH Arrhythmia Database:201",
+    "MIT-BIH Arrhythmia Database:207",
+    "MIT-BIH Arrhythmia Database:209",
+    "MIT-BIH Arrhythmia Database:222",
+    "MIT-BIH Arrhythmia Database:234",
+    "MIT-BIH Supraventricular Arrhythmia Database:811"
+  ],
+  "Paced/BBB/other": [
+    "MIT-BIH Arrhythmia Database:104",
+    "MIT-BIH Arrhythmia Database:109",
+    "MIT-BIH Arrhythmia Database:111",
+    "MIT-BIH Arrhythmia Database:115",
+    "MIT-BIH Arrhythmia Database:118",
+    "MIT-BIH Arrhythmia Database:124",
+    "MIT-BIH Arrhythmia Database:207",
+    "MIT-BIH Arrhythmia Database:212",
+    "MIT-BIH Arrhythmia Database:214",
+    "MIT-BIH Arrhythmia Database:230",
+    "MIT-BIH Arrhythmia Database:231",
+    "MIT-BIH Supraventricular Arrhythmia Database:886"
+  ]
+}

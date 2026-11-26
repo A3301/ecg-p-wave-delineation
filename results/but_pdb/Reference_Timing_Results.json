@@ -1,0 +1,1446 @@
+{
+  "table3": {
+    "cnn_bilstm": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8309,
+      "d_hit": 9,
+      "hit_231": 1,
+      "hit_other": 8
+    },
+    "cnn_bilstm__s2dissoc": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8287,
+      "d_hit": 154,
+      "hit_231": 147,
+      "hit_other": 7
+    },
+    "cnn_bilstm__s3pw": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8796,
+      "d_hit": 167,
+      "hit_231": 155,
+      "hit_other": 12
+    },
+    "cnn_bilstm__s3xdb": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 9479,
+      "d_hit": 151,
+      "hit_231": 140,
+      "hit_other": 11
+    },
+    "cnn_bilstm__s4multi": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8520,
+      "d_hit": 160,
+      "hit_231": 154,
+      "hit_other": 6
+    },
+    "convkan": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8333,
+      "d_hit": 10,
+      "hit_231": 5,
+      "hit_other": 5
+    },
+    "deq": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8134,
+      "d_hit": 7,
+      "hit_231": 1,
+      "hit_other": 6
+    },
+    "deq__s2dissoc": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8394,
+      "d_hit": 161,
+      "hit_231": 155,
+      "hit_other": 6
+    },
+    "deq__s3pw": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8021,
+      "d_hit": 163,
+      "hit_231": 155,
+      "hit_other": 8
+    },
+    "deq__s3xdb": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 9370,
+      "d_hit": 164,
+      "hit_231": 155,
+      "hit_other": 9
+    },
+    "deq__s4multi": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8710,
+      "d_hit": 161,
+      "hit_231": 154,
+      "hit_other": 7
+    },
+    "deq_unrolled": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8198,
+      "d_hit": 8,
+      "hit_231": 1,
+      "hit_other": 7
+    },
+    "explicit_stack": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 7997,
+      "d_hit": 9,
+      "hit_231": 3,
+      "hit_other": 6
+    },
+    "transformer": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 7862,
+      "d_hit": 152,
+      "hit_231": 143,
+      "hit_other": 9
+    },
+    "unet": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 7939,
+      "d_hit": 9,
+      "hit_231": 1,
+      "hit_other": 8
+    },
+    "unet__s2dissoc": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8233,
+      "d_hit": 164,
+      "hit_231": 155,
+      "hit_other": 9
+    },
+    "unet_kan": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 7951,
+      "d_hit": 9,
+      "hit_231": 2,
+      "hit_other": 7
+    },
+    "unet_kan__s2dissoc": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8650,
+      "d_hit": 162,
+      "hit_231": 153,
+      "hit_other": 9
+    },
+    "unet_kan__s3pw": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 8591,
+      "d_hit": 163,
+      "hit_231": 154,
+      "hit_other": 9
+    },
+    "unet_kan__s3xdb": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 9554,
+      "d_hit": 166,
+      "hit_231": 152,
+      "hit_other": 14
+    },
+    "unet_kan__s4multi": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 9033,
+      "d_hit": 142,
+      "hit_231": 131,
+      "hit_other": 11
+    },
+    "wavelet": {
+      "c_n": 10672,
+      "d_n": 186,
+      "c_hit": 10341,
+      "d_hit": 15,
+      "hit_231": 2,
+      "hit_other": 13
+    }
+  },
+  "s8": {
+    "all": {
+      "unet__s2dissoc": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 88.17204301075269,
+        "up": 3,
+        "down": 1,
+        "paired_gains": 156,
+        "paired_losses": 1,
+        "ci": [
+          -4.545454545454546,
+          92.94354838709677
+        ],
+        "sign_p": 0.625
+      },
+      "cnn_bilstm__s2dissoc": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 82.79569892473118,
+        "up": 2,
+        "down": 2,
+        "paired_gains": 147,
+        "paired_losses": 2,
+        "ci": [
+          -13.636363636363637,
+          87.8
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s2dissoc": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 87.09677419354838,
+        "up": 4,
+        "down": 2,
+        "paired_gains": 155,
+        "paired_losses": 2,
+        "ci": [
+          -8.333333333333334,
+          91.2
+        ],
+        "sign_p": 0.6875
+      },
+      "deq__s2dissoc": {
+        "n": 186,
+        "records": 11,
+        "se_base": 3.763440860215054,
+        "se_variant": 86.55913978494624,
+        "up": 2,
+        "down": 1,
+        "paired_gains": 155,
+        "paired_losses": 1,
+        "ci": [
+          -7.6923076923076925,
+          92.8
+        ],
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s3xdb": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 81.18279569892474,
+        "up": 5,
+        "down": 1,
+        "paired_gains": 143,
+        "paired_losses": 1,
+        "ci": [
+          0.0,
+          84.2
+        ],
+        "sign_p": 0.21875
+      },
+      "unet_kan__s3xdb": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 89.24731182795699,
+        "up": 6,
+        "down": 1,
+        "paired_gains": 159,
+        "paired_losses": 2,
+        "ci": [
+          9.375,
+          91.42011834319527
+        ],
+        "sign_p": 0.125
+      },
+      "deq__s3xdb": {
+        "n": 186,
+        "records": 11,
+        "se_base": 3.763440860215054,
+        "se_variant": 88.17204301075269,
+        "up": 5,
+        "down": 1,
+        "paired_gains": 158,
+        "paired_losses": 1,
+        "ci": [
+          0.0,
+          93.35397481163322
+        ],
+        "sign_p": 0.21875
+      },
+      "cnn_bilstm__s4multi": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 86.02150537634408,
+        "up": 1,
+        "down": 2,
+        "paired_gains": 153,
+        "paired_losses": 2,
+        "ci": [
+          -16.666666666666668,
+          91.8680804298274
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s4multi": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 76.34408602150538,
+        "up": 5,
+        "down": 1,
+        "paired_gains": 135,
+        "paired_losses": 2,
+        "ci": [
+          3.3333333333333335,
+          78.22586699602827
+        ],
+        "sign_p": 0.21875
+      },
+      "deq__s4multi": {
+        "n": 186,
+        "records": 11,
+        "se_base": 3.763440860215054,
+        "se_variant": 86.55913978494624,
+        "up": 4,
+        "down": 2,
+        "paired_gains": 156,
+        "paired_losses": 2,
+        "ci": [
+          -7.6923076923076925,
+          92.36947791164658
+        ],
+        "sign_p": 0.6875
+      },
+      "cnn_bilstm__s5cd": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 86.02150537634408,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 152,
+        "paired_losses": 1,
+        "ci": [
+          0.0,
+          89.51612903225806
+        ],
+        "sign_p": 0.375
+      },
+      "unet_kan__s5cd": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 84.40860215053763,
+        "up": 6,
+        "down": 2,
+        "paired_gains": 151,
+        "paired_losses": 3,
+        "ci": [
+          -7.6923076923076925,
+          87.4
+        ],
+        "sign_p": 0.2890625
+      },
+      "unet_kan__s5ins": {
+        "n": 186,
+        "records": 11,
+        "se_base": 4.838709677419355,
+        "se_variant": 87.63440860215054,
+        "up": 4,
+        "down": 0,
+        "paired_gains": 154,
+        "paired_losses": 0,
+        "ci": [
+          4.545454545454546,
+          90.9274193548387
+        ],
+        "sign_p": 0.125
+      }
+    },
+    "first_lead": {
+      "unet__s2dissoc": {
+        "n": 93,
+        "records": 11,
+        "se_base": 4.301075268817204,
+        "se_variant": 88.17204301075269,
+        "up": 3,
+        "down": 1,
+        "paired_gains": 79,
+        "paired_losses": 1,
+        "ci": [
+          -9.090909090909092,
+          93.14516129032258
+        ],
+        "sign_p": 0.625
+      },
+      "cnn_bilstm__s2dissoc": {
+        "n": 93,
+        "records": 11,
+        "se_base": 4.301075268817204,
+        "se_variant": 87.09677419354838,
+        "up": 2,
+        "down": 1,
+        "paired_gains": 78,
+        "paired_losses": 1,
+        "ci": [
+          -15.384615384615385,
+          92.8
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s2dissoc": {
+        "n": 93,
+        "records": 11,
+        "se_base": 3.225806451612903,
+        "se_variant": 88.17204301075269,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 80,
+        "paired_losses": 1,
+        "ci": [
+          -7.142857142857143,
+          93.54838709677419
+        ],
+        "sign_p": 0.375
+      },
+      "deq__s2dissoc": {
+        "n": 93,
+        "records": 11,
+        "se_base": 2.150537634408602,
+        "se_variant": 86.02150537634408,
+        "up": 2,
+        "down": 0,
+        "paired_gains": 78,
+        "paired_losses": 0,
+        "ci": [
+          0.0,
+          93.1726907630522
+        ],
+        "sign_p": 0.5
+      },
+      "cnn_bilstm__s3xdb": {
+        "n": 93,
+        "records": 11,
+        "se_base": 4.301075268817204,
+        "se_variant": 87.09677419354838,
+        "up": 2,
+        "down": 1,
+        "paired_gains": 78,
+        "paired_losses": 1,
+        "ci": [
+          -15.384615384615385,
+          92.8
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s3xdb": {
+        "n": 93,
+        "records": 11,
+        "se_base": 3.225806451612903,
+        "se_variant": 89.24731182795699,
+        "up": 5,
+        "down": 1,
+        "paired_gains": 81,
+        "paired_losses": 1,
+        "ci": [
+          0.0,
+          93.95161290322581
+        ],
+        "sign_p": 0.21875
+      },
+      "deq__s3xdb": {
+        "n": 93,
+        "records": 11,
+        "se_base": 2.150537634408602,
+        "se_variant": 87.09677419354838,
+        "up": 3,
+        "down": 0,
+        "paired_gains": 79,
+        "paired_losses": 0,
+        "ci": [
+          0.0,
+          93.57429718875503
+        ],
+        "sign_p": 0.25
+      },
+      "cnn_bilstm__s4multi": {
+        "n": 93,
+        "records": 11,
+        "se_base": 4.301075268817204,
+        "se_variant": 86.02150537634408,
+        "up": 1,
+        "down": 1,
+        "paired_gains": 77,
+        "paired_losses": 1,
+        "ci": [
+          -20.0,
+          92.4
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s4multi": {
+        "n": 93,
+        "records": 11,
+        "se_base": 3.225806451612903,
+        "se_variant": 87.09677419354838,
+        "up": 3,
+        "down": 1,
+        "paired_gains": 79,
+        "paired_losses": 1,
+        "ci": [
+          -9.090909090909092,
+          93.14516129032258
+        ],
+        "sign_p": 0.625
+      },
+      "deq__s4multi": {
+        "n": 93,
+        "records": 11,
+        "se_base": 2.150537634408602,
+        "se_variant": 87.09677419354838,
+        "up": 3,
+        "down": 0,
+        "paired_gains": 79,
+        "paired_losses": 0,
+        "ci": [
+          0.0,
+          93.57429718875503
+        ],
+        "sign_p": 0.25
+      },
+      "cnn_bilstm__s5cd": {
+        "n": 93,
+        "records": 11,
+        "se_base": 4.301075268817204,
+        "se_variant": 87.09677419354838,
+        "up": 2,
+        "down": 1,
+        "paired_gains": 78,
+        "paired_losses": 1,
+        "ci": [
+          -15.384615384615385,
+          92.8
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s5cd": {
+        "n": 93,
+        "records": 11,
+        "se_base": 3.225806451612903,
+        "se_variant": 88.17204301075269,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 80,
+        "paired_losses": 1,
+        "ci": [
+          -7.142857142857143,
+          93.54838709677419
+        ],
+        "sign_p": 0.375
+      },
+      "unet_kan__s5ins": {
+        "n": 93,
+        "records": 11,
+        "se_base": 3.225806451612903,
+        "se_variant": 88.17204301075269,
+        "up": 3,
+        "down": 0,
+        "paired_gains": 79,
+        "paired_losses": 0,
+        "ci": [
+          0.0,
+          93.22776354897867
+        ],
+        "sign_p": 0.25
+      }
+    },
+    "record_231": {
+      "unet__s2dissoc": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 96.875,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 154,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s2dissoc": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 91.875,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 146,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "unet_kan__s2dissoc": {
+        "n": 160,
+        "records": 1,
+        "se_base": 1.25,
+        "se_variant": 95.625,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 151,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "deq__s2dissoc": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 96.875,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 154,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s3xdb": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 87.5,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 139,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "unet_kan__s3xdb": {
+        "n": 160,
+        "records": 1,
+        "se_base": 1.25,
+        "se_variant": 95.0,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 151,
+        "paired_losses": 1,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "deq__s3xdb": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 96.875,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 154,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s4multi": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 96.25,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 153,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "unet_kan__s4multi": {
+        "n": 160,
+        "records": 1,
+        "se_base": 1.25,
+        "se_variant": 81.875,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 130,
+        "paired_losses": 1,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "deq__s4multi": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 96.25,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 153,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s5cd": {
+        "n": 160,
+        "records": 1,
+        "se_base": 0.625,
+        "se_variant": 93.125,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 148,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "unet_kan__s5cd": {
+        "n": 160,
+        "records": 1,
+        "se_base": 1.25,
+        "se_variant": 91.25,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 144,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      },
+      "unet_kan__s5ins": {
+        "n": 160,
+        "records": 1,
+        "se_base": 1.25,
+        "se_variant": 95.0,
+        "up": 1,
+        "down": 0,
+        "paired_gains": 150,
+        "paired_losses": 0,
+        "ci": null,
+        "sign_p": 1.0
+      }
+    },
+    "without_231": {
+      "unet__s2dissoc": {
+        "n": 26,
+        "records": 10,
+        "se_base": 30.76923076923077,
+        "se_variant": 34.61538461538461,
+        "up": 2,
+        "down": 1,
+        "paired_gains": 2,
+        "paired_losses": 1,
+        "ci": [
+          -10.0,
+          15.384615384615385
+        ],
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s2dissoc": {
+        "n": 26,
+        "records": 10,
+        "se_base": 30.76923076923077,
+        "se_variant": 26.923076923076923,
+        "up": 1,
+        "down": 2,
+        "paired_gains": 1,
+        "paired_losses": 2,
+        "ci": [
+          -18.181818181818183,
+          9.090909090909092
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s2dissoc": {
+        "n": 26,
+        "records": 10,
+        "se_base": 26.923076923076923,
+        "se_variant": 34.61538461538461,
+        "up": 3,
+        "down": 2,
+        "paired_gains": 4,
+        "paired_losses": 2,
+        "ci": [
+          -13.636363636363637,
+          25.0
+        ],
+        "sign_p": 1.0
+      },
+      "deq__s2dissoc": {
+        "n": 26,
+        "records": 10,
+        "se_base": 23.076923076923077,
+        "se_variant": 23.076923076923077,
+        "up": 1,
+        "down": 1,
+        "paired_gains": 1,
+        "paired_losses": 1,
+        "ci": [
+          -11.538461538461538,
+          11.538461538461538
+        ],
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s3xdb": {
+        "n": 26,
+        "records": 10,
+        "se_base": 30.76923076923077,
+        "se_variant": 42.30769230769231,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 4,
+        "paired_losses": 1,
+        "ci": [
+          -4.545454545454546,
+          26.470588235294116
+        ],
+        "sign_p": 0.375
+      },
+      "unet_kan__s3xdb": {
+        "n": 26,
+        "records": 10,
+        "se_base": 26.923076923076923,
+        "se_variant": 53.84615384615385,
+        "up": 5,
+        "down": 1,
+        "paired_gains": 8,
+        "paired_losses": 1,
+        "ci": [
+          3.5714285714285716,
+          47.78409090909008
+        ],
+        "sign_p": 0.21875
+      },
+      "deq__s3xdb": {
+        "n": 26,
+        "records": 10,
+        "se_base": 23.076923076923077,
+        "se_variant": 34.61538461538461,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 4,
+        "paired_losses": 1,
+        "ci": [
+          -3.8461538461538463,
+          30.0
+        ],
+        "sign_p": 0.375
+      },
+      "cnn_bilstm__s4multi": {
+        "n": 26,
+        "records": 10,
+        "se_base": 30.76923076923077,
+        "se_variant": 23.076923076923077,
+        "up": 0,
+        "down": 2,
+        "paired_gains": 0,
+        "paired_losses": 2,
+        "ci": [
+          -20.0,
+          0.0
+        ],
+        "sign_p": 0.5
+      },
+      "unet_kan__s4multi": {
+        "n": 26,
+        "records": 10,
+        "se_base": 26.923076923076923,
+        "se_variant": 42.30769230769231,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 5,
+        "paired_losses": 1,
+        "ci": [
+          -4.545454545454546,
+          30.555555555555557
+        ],
+        "sign_p": 0.375
+      },
+      "deq__s4multi": {
+        "n": 26,
+        "records": 10,
+        "se_base": 23.076923076923077,
+        "se_variant": 26.923076923076923,
+        "up": 3,
+        "down": 2,
+        "paired_gains": 3,
+        "paired_losses": 2,
+        "ci": [
+          -13.636363636363637,
+          22.727272727272727
+        ],
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s5cd": {
+        "n": 26,
+        "records": 10,
+        "se_base": 30.76923076923077,
+        "se_variant": 42.30769230769231,
+        "up": 3,
+        "down": 1,
+        "paired_gains": 4,
+        "paired_losses": 1,
+        "ci": [
+          -7.6923076923076925,
+          26.666666666666668
+        ],
+        "sign_p": 0.625
+      },
+      "unet_kan__s5cd": {
+        "n": 26,
+        "records": 10,
+        "se_base": 26.923076923076923,
+        "se_variant": 42.30769230769231,
+        "up": 5,
+        "down": 2,
+        "paired_gains": 7,
+        "paired_losses": 3,
+        "ci": [
+          -18.181818181818183,
+          39.285714285714285
+        ],
+        "sign_p": 0.453125
+      },
+      "unet_kan__s5ins": {
+        "n": 26,
+        "records": 10,
+        "se_base": 26.923076923076923,
+        "se_variant": 42.30769230769231,
+        "up": 3,
+        "down": 0,
+        "paired_gains": 4,
+        "paired_losses": 0,
+        "ci": [
+          0.0,
+          28.125
+        ],
+        "sign_p": 0.25
+      }
+    },
+    "without_close_pairs": {
+      "unet__s2dissoc": {
+        "n": 172,
+        "records": 9,
+        "se_base": 2.9069767441860463,
+        "se_variant": 90.69767441860465,
+        "up": 3,
+        "down": 1,
+        "paired_gains": 152,
+        "paired_losses": 1,
+        "ci": [
+          -5.583333333333308,
+          97.09677419354838
+        ],
+        "sign_p": 0.625
+      },
+      "cnn_bilstm__s2dissoc": {
+        "n": 172,
+        "records": 9,
+        "se_base": 3.488372093023256,
+        "se_variant": 85.46511627906976,
+        "up": 2,
+        "down": 2,
+        "paired_gains": 143,
+        "paired_losses": 2,
+        "ci": [
+          -16.666666666666668,
+          91.63090128755364
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s2dissoc": {
+        "n": 172,
+        "records": 9,
+        "se_base": 2.9069767441860463,
+        "se_variant": 90.11627906976744,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 151,
+        "paired_losses": 1,
+        "ci": [
+          0.0,
+          95.45454545454545
+        ],
+        "sign_p": 0.375
+      },
+      "deq__s2dissoc": {
+        "n": 172,
+        "records": 9,
+        "se_base": 1.744186046511628,
+        "se_variant": 88.95348837209302,
+        "up": 2,
+        "down": 1,
+        "paired_gains": 151,
+        "paired_losses": 1,
+        "ci": [
+          -9.090909090909092,
+          96.98308235903507
+        ],
+        "sign_p": 1.0
+      },
+      "cnn_bilstm__s3xdb": {
+        "n": 172,
+        "records": 9,
+        "se_base": 3.488372093023256,
+        "se_variant": 83.72093023255815,
+        "up": 5,
+        "down": 1,
+        "paired_gains": 139,
+        "paired_losses": 1,
+        "ci": [
+          0.0,
+          87.76824034334764
+        ],
+        "sign_p": 0.21875
+      },
+      "unet_kan__s3xdb": {
+        "n": 172,
+        "records": 9,
+        "se_base": 2.9069767441860463,
+        "se_variant": 91.86046511627907,
+        "up": 6,
+        "down": 1,
+        "paired_gains": 155,
+        "paired_losses": 2,
+        "ci": [
+          12.5,
+          95.53191489361703
+        ],
+        "sign_p": 0.125
+      },
+      "deq__s3xdb": {
+        "n": 172,
+        "records": 9,
+        "se_base": 1.744186046511628,
+        "se_variant": 91.27906976744185,
+        "up": 5,
+        "down": 0,
+        "paired_gains": 154,
+        "paired_losses": 0,
+        "ci": [
+          7.6923076923076925,
+          97.63948497854078
+        ],
+        "sign_p": 0.0625
+      },
+      "cnn_bilstm__s4multi": {
+        "n": 172,
+        "records": 9,
+        "se_base": 3.488372093023256,
+        "se_variant": 88.95348837209302,
+        "up": 1,
+        "down": 2,
+        "paired_gains": 149,
+        "paired_losses": 2,
+        "ci": [
+          -20.0,
+          96.1038961038961
+        ],
+        "sign_p": 1.0
+      },
+      "unet_kan__s4multi": {
+        "n": 172,
+        "records": 9,
+        "se_base": 2.9069767441860463,
+        "se_variant": 77.90697674418605,
+        "up": 5,
+        "down": 1,
+        "paired_gains": 131,
+        "paired_losses": 2,
+        "ci": [
+          3.8461538461538463,
+          81.4108306188925
+        ],
+        "sign_p": 0.21875
+      },
+      "deq__s4multi": {
+        "n": 172,
+        "records": 9,
+        "se_base": 1.744186046511628,
+        "se_variant": 89.53488372093024,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 152,
+        "paired_losses": 1,
+        "ci": [
+          -3.5714285714285716,
+          96.76724137931035
+        ],
+        "sign_p": 0.375
+      },
+      "cnn_bilstm__s5cd": {
+        "n": 172,
+        "records": 9,
+        "se_base": 3.488372093023256,
+        "se_variant": 88.95348837209302,
+        "up": 4,
+        "down": 1,
+        "paired_gains": 148,
+        "paired_losses": 1,
+        "ci": [
+          0.0,
+          93.52750809061489
+        ],
+        "sign_p": 0.375
+      },
+      "unet_kan__s5cd": {
+        "n": 172,
+        "records": 9,
+        "se_base": 2.9069767441860463,
+        "se_variant": 87.20930232558139,
+        "up": 6,
+        "down": 1,
+        "paired_gains": 147,
+        "paired_losses": 2,
+        "ci": [
+          0.0,
+          91.34199134199135
+        ],
+        "sign_p": 0.125
+      },
+      "unet_kan__s5ins": {
+        "n": 172,
+        "records": 9,
+        "se_base": 2.9069767441860463,
+        "se_variant": 90.11627906976744,
+        "up": 4,
+        "down": 0,
+        "paired_gains": 150,
+        "paired_losses": 0,
+        "ci": [
+          7.142857142857143,
+          94.98422330097087
+        ],
+        "sign_p": 0.125
+      }
+    }
+  },
+  "source_records": {
+    "unet": {
+      "MIT-BIH Arrhythmia Database:231": [
+        160,
+        1,
+        155,
+        154,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:106": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:107": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:108": [
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:118": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:207": [
+        6,
+        0,
+        1,
+        1,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:208": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:222": [
+        2,
+        2,
+        1,
+        0,
+        1
+      ],
+      "MIT-BIH Supraventricular Arrhythmia Database:801": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Long Term AF Database:56": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "Long Term AF Database:102": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    "cnn_bilstm": {
+      "MIT-BIH Arrhythmia Database:231": [
+        160,
+        1,
+        147,
+        146,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:106": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:107": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:108": [
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:118": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:207": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:208": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:222": [
+        2,
+        2,
+        1,
+        0,
+        1
+      ],
+      "MIT-BIH Supraventricular Arrhythmia Database:801": [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      "Long Term AF Database:56": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Long Term AF Database:102": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    "unet_kan": {
+      "MIT-BIH Arrhythmia Database:231": [
+        160,
+        2,
+        153,
+        151,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:106": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:107": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:108": [
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:118": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:207": [
+        6,
+        0,
+        2,
+        2,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:208": [
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:222": [
+        2,
+        2,
+        1,
+        0,
+        1
+      ],
+      "MIT-BIH Supraventricular Arrhythmia Database:801": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Long Term AF Database:56": [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      "Long Term AF Database:102": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    "deq": {
+      "MIT-BIH Arrhythmia Database:231": [
+        160,
+        1,
+        155,
+        154,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:106": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:107": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:108": [
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:118": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:207": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:208": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MIT-BIH Arrhythmia Database:222": [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      "MIT-BIH Supraventricular Arrhythmia Database:801": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Long Term AF Database:56": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "Long Term AF Database:102": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    }
+  }
+}

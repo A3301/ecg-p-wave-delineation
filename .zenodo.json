@@ -1,0 +1,44 @@
+{
+  "title": "Research code and replay data for QRS-independent P-wave augmentation in ECG delineation",
+  "description": "<p>Research software and derived event counts for QRS-independent P-wave augmentation and cross-database ECG delineation in pathological rhythms.</p><p>The archive includes the training-source snapshot, the analysis code and the frozen counts for the 48-segment BUT PDB benchmark and exploratory European ST-T subset of QTDB. The replay covers the four primary architecture comparisons, external comparisons and rhythm subgroup counts. Source-dataset attribution and reuse terms are documented in DATA_SOURCES.md.</p>",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Akdağlı, Ali",
+      "orcid": "0000-0003-3312-992X",
+      "affiliation": "Department of Artificial Intelligence and Data Engineering, Faculty of Engineering, Mersin University"
+    },
+    {
+      "name": "Yanık, Hüseyin",
+      "orcid": "0000-0002-4386-5536",
+      "affiliation": "Department of Information Systems and Technologies, Erdemli School of Applied Technology and Management, Mersin University"
+    },
+    {
+      "name": "Yıldız, Ali",
+      "orcid": "0000-0003-3904-6017",
+      "affiliation": "Department of Electrical and Electronics Engineering, Faculty of Engineering, Mersin University"
+    }
+  ],
+  "keywords": [
+    "electrocardiography",
+    "ECG delineation",
+    "P-wave detection",
+    "atrioventricular block",
+    "data augmentation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.13026/hwvj-5b53",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.13026/C24K53",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}

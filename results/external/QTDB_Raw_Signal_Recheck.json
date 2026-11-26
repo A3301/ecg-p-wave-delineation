@@ -1,0 +1,146 @@
+[
+  {
+    "model": "unet",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "unet",
+    "record": "sele0704",
+    "observed": [
+      42,
+      18,
+      0
+    ]
+  },
+  {
+    "model": "unet__s2dissoc",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "unet__s2dissoc",
+    "record": "sele0704",
+    "observed": [
+      43,
+      17,
+      0
+    ]
+  },
+  {
+    "model": "cnn_bilstm",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "cnn_bilstm",
+    "record": "sele0704",
+    "observed": [
+      48,
+      12,
+      0
+    ]
+  },
+  {
+    "model": "cnn_bilstm__s2dissoc",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "cnn_bilstm__s2dissoc",
+    "record": "sele0704",
+    "observed": [
+      55,
+      5,
+      0
+    ]
+  },
+  {
+    "model": "unet_kan",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "unet_kan",
+    "record": "sele0704",
+    "observed": [
+      49,
+      11,
+      0
+    ]
+  },
+  {
+    "model": "unet_kan__s2dissoc",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "unet_kan__s2dissoc",
+    "record": "sele0704",
+    "observed": [
+      50,
+      10,
+      0
+    ]
+  },
+  {
+    "model": "deq",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "deq",
+    "record": "sele0704",
+    "observed": [
+      55,
+      5,
+      0
+    ]
+  },
+  {
+    "model": "deq__s2dissoc",
+    "record": "sele0104",
+    "observed": [
+      60,
+      0,
+      0
+    ]
+  },
+  {
+    "model": "deq__s2dissoc",
+    "record": "sele0704",
+    "observed": [
+      50,
+      10,
+      0
+    ]
+  }
+]

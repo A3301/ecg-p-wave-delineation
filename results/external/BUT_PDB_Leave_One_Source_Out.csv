@@ -1,0 +1,173 @@
+model,source_left_out,delta_pp
+unet,Long Term AF Database:101,1.155208102440966
+unet,Long Term AF Database:102,1.197188508666457
+unet,Long Term AF Database:117,1.1329851345922037
+unet,Long Term AF Database:120,1.1913890014676554
+unet,Long Term AF Database:55,1.1183930746915394
+unet,Long Term AF Database:56,1.159202467732328
+unet,MIT-BIH Arrhythmia Database:101,1.3465457948561834
+unet,MIT-BIH Arrhythmia Database:104,1.1176868262769233
+unet,MIT-BIH Arrhythmia Database:105,1.185653038118076
+unet,MIT-BIH Arrhythmia Database:106,1.2232368793245456
+unet,MIT-BIH Arrhythmia Database:107,1.0758485057223055
+unet,MIT-BIH Arrhythmia Database:108,1.2445628725163118
+unet,MIT-BIH Arrhythmia Database:109,1.0847926705684756
+unet,MIT-BIH Arrhythmia Database:111,1.2929865150611306
+unet,MIT-BIH Arrhythmia Database:112,1.3051161287552304
+unet,MIT-BIH Arrhythmia Database:113,1.1898127731335109
+unet,MIT-BIH Arrhythmia Database:114,1.109848781400288
+unet,MIT-BIH Arrhythmia Database:115,1.1867148953732283
+unet,MIT-BIH Arrhythmia Database:116,1.3400382816440697
+unet,MIT-BIH Arrhythmia Database:118,1.4665049752803867
+unet,MIT-BIH Arrhythmia Database:119,1.201422111246842
+unet,MIT-BIH Arrhythmia Database:121,1.1681238420265743
+unet,MIT-BIH Arrhythmia Database:123,1.163017312968364
+unet,MIT-BIH Arrhythmia Database:124,1.4213959003040912
+unet,MIT-BIH Arrhythmia Database:201,1.2138519073357372
+unet,MIT-BIH Arrhythmia Database:205,1.3485204497438872
+unet,MIT-BIH Arrhythmia Database:207,1.1412300635332144
+unet,MIT-BIH Arrhythmia Database:208,1.067862832406945
+unet,MIT-BIH Arrhythmia Database:209,1.3810520843772593
+unet,MIT-BIH Arrhythmia Database:212,1.1649573231047583
+unet,MIT-BIH Arrhythmia Database:213,-0.65758284568237
+unet,MIT-BIH Arrhythmia Database:214,1.0216577200614267
+unet,MIT-BIH Arrhythmia Database:219,1.2344578718404904
+unet,MIT-BIH Arrhythmia Database:222,1.1748703697120533
+unet,MIT-BIH Arrhythmia Database:230,1.2392383169628687
+unet,MIT-BIH Arrhythmia Database:231,0.1567737253740802
+unet,MIT-BIH Arrhythmia Database:233,1.0019148983585922
+unet,MIT-BIH Arrhythmia Database:234,1.256520615830098
+unet,MIT-BIH Supraventricular Arrhythmia Database:801,1.0650038799229549
+unet,MIT-BIH Supraventricular Arrhythmia Database:802,1.1489057837069794
+unet,MIT-BIH Supraventricular Arrhythmia Database:811,1.1654692429219295
+unet,MIT-BIH Supraventricular Arrhythmia Database:851,1.1572897603258383
+unet,MIT-BIH Supraventricular Arrhythmia Database:886,1.0697433739566549
+cnn_bilstm,Long Term AF Database:101,0.008685020466330684
+cnn_bilstm,Long Term AF Database:102,0.040175378422290464
+cnn_bilstm,Long Term AF Database:117,0.010064731586510334
+cnn_bilstm,Long Term AF Database:120,0.003573045948797926
+cnn_bilstm,Long Term AF Database:55,0.016210543828606205
+cnn_bilstm,Long Term AF Database:56,0.01499007109066497
+cnn_bilstm,MIT-BIH Arrhythmia Database:101,-0.00033168683543749466
+cnn_bilstm,MIT-BIH Arrhythmia Database:104,0.020583878234987196
+cnn_bilstm,MIT-BIH Arrhythmia Database:105,-0.01824573275638386
+cnn_bilstm,MIT-BIH Arrhythmia Database:106,0.03629304686653256
+cnn_bilstm,MIT-BIH Arrhythmia Database:107,0.0329637834824581
+cnn_bilstm,MIT-BIH Arrhythmia Database:108,0.09975855682954204
+cnn_bilstm,MIT-BIH Arrhythmia Database:109,-0.010234470522561878
+cnn_bilstm,MIT-BIH Arrhythmia Database:111,-0.09478935628631291
+cnn_bilstm,MIT-BIH Arrhythmia Database:112,-0.1051404767869144
+cnn_bilstm,MIT-BIH Arrhythmia Database:113,0.024277277222978455
+cnn_bilstm,MIT-BIH Arrhythmia Database:114,-0.006997025409333446
+cnn_bilstm,MIT-BIH Arrhythmia Database:115,0.010862360808900462
+cnn_bilstm,MIT-BIH Arrhythmia Database:116,0.23362323925904604
+cnn_bilstm,MIT-BIH Arrhythmia Database:118,-0.0952207760467303
+cnn_bilstm,MIT-BIH Arrhythmia Database:119,0.07717525462302888
+cnn_bilstm,MIT-BIH Arrhythmia Database:121,0.014635772210581877
+cnn_bilstm,MIT-BIH Arrhythmia Database:123,0.009491140074672444
+cnn_bilstm,MIT-BIH Arrhythmia Database:124,0.5520408458199597
+cnn_bilstm,MIT-BIH Arrhythmia Database:201,0.08075493537096179
+cnn_bilstm,MIT-BIH Arrhythmia Database:205,-0.009329408547671392
+cnn_bilstm,MIT-BIH Arrhythmia Database:207,0.07716479854671832
+cnn_bilstm,MIT-BIH Arrhythmia Database:208,-0.19279467096228586
+cnn_bilstm,MIT-BIH Arrhythmia Database:209,0.1464594088007658
+cnn_bilstm,MIT-BIH Arrhythmia Database:212,0.005803188519124092
+cnn_bilstm,MIT-BIH Arrhythmia Database:213,-0.3625013138224773
+cnn_bilstm,MIT-BIH Arrhythmia Database:214,-0.06179569716314859
+cnn_bilstm,MIT-BIH Arrhythmia Database:219,0.017178903332649043
+cnn_bilstm,MIT-BIH Arrhythmia Database:222,0.061213387078012715
+cnn_bilstm,MIT-BIH Arrhythmia Database:230,0.008568615773540955
+cnn_bilstm,MIT-BIH Arrhythmia Database:231,-0.8755110444294019
+cnn_bilstm,MIT-BIH Arrhythmia Database:233,0.03181420053853401
+cnn_bilstm,MIT-BIH Arrhythmia Database:234,-0.014624702179020233
+cnn_bilstm,MIT-BIH Supraventricular Arrhythmia Database:801,0.40517108632101895
+cnn_bilstm,MIT-BIH Supraventricular Arrhythmia Database:802,0.008307304805285298
+cnn_bilstm,MIT-BIH Supraventricular Arrhythmia Database:811,0.014195595947427364
+cnn_bilstm,MIT-BIH Supraventricular Arrhythmia Database:851,0.034191268949314235
+cnn_bilstm,MIT-BIH Supraventricular Arrhythmia Database:886,-0.05675047008028855
+unet_kan,Long Term AF Database:101,3.983539911404108
+unet_kan,Long Term AF Database:102,4.051702590529672
+unet_kan,Long Term AF Database:117,3.918081451489442
+unet_kan,Long Term AF Database:120,3.8983894762191795
+unet_kan,Long Term AF Database:55,3.9109462936735753
+unet_kan,Long Term AF Database:56,3.925729558532069
+unet_kan,MIT-BIH Arrhythmia Database:101,3.88696678897486
+unet_kan,MIT-BIH Arrhythmia Database:104,3.9095117680256095
+unet_kan,MIT-BIH Arrhythmia Database:105,3.9452569893128953
+unet_kan,MIT-BIH Arrhythmia Database:106,4.040494977988459
+unet_kan,MIT-BIH Arrhythmia Database:107,3.840722278930812
+unet_kan,MIT-BIH Arrhythmia Database:108,3.9736778927943135
+unet_kan,MIT-BIH Arrhythmia Database:109,3.878673031919078
+unet_kan,MIT-BIH Arrhythmia Database:111,3.6745917346991206
+unet_kan,MIT-BIH Arrhythmia Database:112,4.064778030471501
+unet_kan,MIT-BIH Arrhythmia Database:113,4.050662468813215
+unet_kan,MIT-BIH Arrhythmia Database:114,4.020629376712876
+unet_kan,MIT-BIH Arrhythmia Database:115,4.028832839839637
+unet_kan,MIT-BIH Arrhythmia Database:116,4.159889331404472
+unet_kan,MIT-BIH Arrhythmia Database:118,4.008820207933553
+unet_kan,MIT-BIH Arrhythmia Database:119,4.0141181699409145
+unet_kan,MIT-BIH Arrhythmia Database:121,4.026822232576407
+unet_kan,MIT-BIH Arrhythmia Database:123,3.9988572863765626
+unet_kan,MIT-BIH Arrhythmia Database:124,4.458478614256919
+unet_kan,MIT-BIH Arrhythmia Database:201,4.020510851525856
+unet_kan,MIT-BIH Arrhythmia Database:205,4.160198484281494
+unet_kan,MIT-BIH Arrhythmia Database:207,4.0353094681728265
+unet_kan,MIT-BIH Arrhythmia Database:208,3.77525758310712
+unet_kan,MIT-BIH Arrhythmia Database:209,4.13410046638819
+unet_kan,MIT-BIH Arrhythmia Database:212,3.9518250427057495
+unet_kan,MIT-BIH Arrhythmia Database:213,2.671729221717669
+unet_kan,MIT-BIH Arrhythmia Database:214,3.8650778187321038
+unet_kan,MIT-BIH Arrhythmia Database:219,3.994919151937154
+unet_kan,MIT-BIH Arrhythmia Database:222,4.026629968493438
+unet_kan,MIT-BIH Arrhythmia Database:230,4.0461100120436555
+unet_kan,MIT-BIH Arrhythmia Database:231,3.226334806277748
+unet_kan,MIT-BIH Arrhythmia Database:233,3.9578330739368113
+unet_kan,MIT-BIH Arrhythmia Database:234,4.040245524948119
+unet_kan,MIT-BIH Supraventricular Arrhythmia Database:801,3.6309434017309172
+unet_kan,MIT-BIH Supraventricular Arrhythmia Database:802,3.979438893187506
+unet_kan,MIT-BIH Supraventricular Arrhythmia Database:811,4.016077010016815
+unet_kan,MIT-BIH Supraventricular Arrhythmia Database:851,4.009863238590057
+unet_kan,MIT-BIH Supraventricular Arrhythmia Database:886,2.8322174576125576
+deq,Long Term AF Database:101,1.2679224507408975
+deq,Long Term AF Database:102,1.2856614272733395
+deq,Long Term AF Database:117,1.2461152674180482
+deq,Long Term AF Database:120,1.3736854162386152
+deq,Long Term AF Database:55,1.247006371764698
+deq,Long Term AF Database:56,1.266699506146793
+deq,MIT-BIH Arrhythmia Database:101,1.3744078913252196
+deq,MIT-BIH Arrhythmia Database:104,1.2865864853012425
+deq,MIT-BIH Arrhythmia Database:105,1.4024720366862908
+deq,MIT-BIH Arrhythmia Database:106,1.2625133636052794
+deq,MIT-BIH Arrhythmia Database:107,1.2238173016716019
+deq,MIT-BIH Arrhythmia Database:108,1.3898698346431928
+deq,MIT-BIH Arrhythmia Database:109,1.203314270162707
+deq,MIT-BIH Arrhythmia Database:111,1.2460678272672538
+deq,MIT-BIH Arrhythmia Database:112,1.5234471181433236
+deq,MIT-BIH Arrhythmia Database:113,1.2889690424203621
+deq,MIT-BIH Arrhythmia Database:114,1.2939511363756537
+deq,MIT-BIH Arrhythmia Database:115,1.291743881462608
+deq,MIT-BIH Arrhythmia Database:116,1.0096301625488167
+deq,MIT-BIH Arrhythmia Database:118,1.060772251157644
+deq,MIT-BIH Arrhythmia Database:119,1.3277763119794912
+deq,MIT-BIH Arrhythmia Database:121,1.2864925909382094
+deq,MIT-BIH Arrhythmia Database:123,1.263850795452882
+deq,MIT-BIH Arrhythmia Database:124,1.292157673227237
+deq,MIT-BIH Arrhythmia Database:201,1.3476630397920104
+deq,MIT-BIH Arrhythmia Database:205,1.2206159285517373
+deq,MIT-BIH Arrhythmia Database:207,1.1865850997505305
+deq,MIT-BIH Arrhythmia Database:208,1.2309834565232478
+deq,MIT-BIH Arrhythmia Database:209,1.4129042337134905
+deq,MIT-BIH Arrhythmia Database:212,1.0473174895975177
+deq,MIT-BIH Arrhythmia Database:213,0.10624748833039632
+deq,MIT-BIH Arrhythmia Database:214,1.2304157247850327
+deq,MIT-BIH Arrhythmia Database:219,1.2904526330958959
+deq,MIT-BIH Arrhythmia Database:222,1.4675279514232216
+deq,MIT-BIH Arrhythmia Database:230,1.3648696214727494
+deq,MIT-BIH Arrhythmia Database:231,0.394227015148374
+deq,MIT-BIH Arrhythmia Database:233,1.3574106740859122
+deq,MIT-BIH Arrhythmia Database:234,1.3023862384873297
+deq,MIT-BIH Supraventricular Arrhythmia Database:801,1.5932696694140844
+deq,MIT-BIH Supraventricular Arrhythmia Database:802,1.2795700349220311
+deq,MIT-BIH Supraventricular Arrhythmia Database:811,1.3048446242312508
+deq,MIT-BIH Supraventricular Arrhythmia Database:851,1.405867535142633
+deq,MIT-BIH Supraventricular Arrhythmia Database:886,1.0045508177789486
